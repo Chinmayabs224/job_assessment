@@ -1,0 +1,38 @@
+scikit-learn
+spacy
+transformers
+pandas
+matplotlib
+fastapi
+uvicorn[standard]
+python-docx
+PyPDF2
+# or pdfminer.six, choose one based on preference/performance
+# pdfminer.six
+opencv-python
+pytesseract
+# For spaCy models, e.g., en_core_web_sm. These are usually installed separately via spacy download.
+# Example: python -m spacy download en_core_web_sm
+
+# For specific versions, you might want to pin them, e.g.:
+# pandas==1.5.3
+# scikit-learn==1.2.2
+# spacy==3.5.0
+# transformers==4.26.1
+# fastapi==0.95.0
+# uvicorn==0.21.1
+# python-docx==0.8.11
+# PyPDF2==3.0.1
+# opencv-python==4.7.0.72
+# pytesseract==0.3.10
+# matplotlib==3.7.1
+
+# For XGBoost (if used in salary forecasting)
+xgboost
+
+# For Sentence-BERT (usually part of transformers or sentence-transformers library)
+sentence-transformers
+
+# For ANN (e.g., TensorFlow or PyTorch, if chosen over SVM for matching)
+# tensorflow
+# torch
