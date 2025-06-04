@@ -1,0 +1,19 @@
+scikit-learn
+# pandas
+numpy
+spacy
+# transformers
+sentence-transformers
+nltk
+matplotlib
+seaborn
+fastapi
+uvicorn[standard]
+python-multipart
+# tesseract
+pytesseract
+PyMuPDF
+docx2txt
+python-docx
+Pillow
+joblib
